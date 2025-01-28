@@ -4,31 +4,38 @@ CKAppRating is a modern and customizable rating/review component framework for i
 
 ## Features
 
-- 📱 Modern SwiftUI design
-- ⭐️ Customizable rating icons (SF Symbols, Assets, or Custom)
-- 🌈 Customizable colors and sizes
-- 🌍 Multi-language support (English, Turkish, German, French, Spanish, Chinese)
-- 📝 App Store review integration
-- ✨ Beautiful animations
-- 🎨 Light/Dark mode support
+📱 Modern SwiftUI design
 
-## Installation
+⭐️ Customizable rating icons (SF Symbols, Assets, or Custom)
 
-### Swift Package Manager
+🌈 Customizable colors and sizes
 
-1. Open your project in Xcode
-2. Go to File > Add Packages...
-3. Paste the following URL in the search bar:  https://github.com/yourusername/CKAppRating.git
-4. Click Add Package
+🌍 Multi-language support (English, Turkish, German, French, Spanish, Chinese)
+
+📝 App Store review integration
+
+✨ Beautiful animations
+
+🎨 Light/Dark mode support
+
+## Installation - Swift Package Manager
+
+1- Open your project in Xcode
+
+2- Go to File > Add Packages...
+
+3- Paste the following URL in the search bar: https://github.com/yourusername/CKAppRating.git
+
+4- Click Add Package
 
 
 ## Usage
-### Basic Implementation
 
 CKAppRating can be implemented in two ways: as a standalone rating view or as a popup rating dialog.
 
-#### 1. Standalone Rating View
+1. Standalone Rating View
 
+```python
 import SwiftUI
 import CKAppRating
 struct ContentView: View {
@@ -42,10 +49,11 @@ struct ContentView: View {
             )
     }
 }
+```
 
+2. Popup Rating Dialog
 
-#### 2. Popup Rating Dialog
-
+```python
 import SwiftUI
 import CKAppRating
 struct ContentView: View {
@@ -62,4 +70,15 @@ struct ContentView: View {
         } 
     } 
 }
-# CKAppRating
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

@@ -24,7 +24,7 @@ CKAppRating is a modern and customizable rating/review component framework for i
 
 2- Go to File > Add Packages...
 
-3- Paste the following URL in the search bar: https://github.com/yourusername/CKAppRating.git
+3- Paste the following URL in the search bar: https://github.com/cihankarabas/CKAppRating.git
 
 4- Click Add Package
 

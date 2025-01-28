@@ -136,4 +136,4 @@ struct RatingPopupView_Previews: PreviewProvider {
                 RatingPopupView(onRatingSelected: { _ in })
             )
     }
-} 
+}
